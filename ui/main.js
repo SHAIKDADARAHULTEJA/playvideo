@@ -1,7 +1,7 @@
 console.log('Loaded!');
 //change the text of maintext div
-var element = document.getElementById('main-text');
-element.innerHTML = "new Value";
+// var element = document.getElementById('main-text');
+// element.innerHTML = "new Value";
 //move the image to the Right continuosly
 var img  = document.getElementById('madi');
 var marginLeft = 0;
