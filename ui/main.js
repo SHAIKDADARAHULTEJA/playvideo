@@ -23,6 +23,6 @@ button.onclick = function()
 	// var span = document.getElementById('count');
 	// span.innerHTML = counter.toString();
   //Make a request
-  request.open('GET','http://localhost:8080/counter',true);
+  request.open('GET','http://shaikdadarahulteja.imad.hasura-app.io/counter',true);
   request.send(null);
 }
