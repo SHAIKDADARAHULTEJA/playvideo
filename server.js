@@ -81,7 +81,7 @@ counter = counter + 1;
 res.send(counter.toString());
 });
 var names= [];
-app.get('/submit-name/:name',functio(req,res)
+app.get('/submit-name/:name',function(req,res)
 {
    var name = req.params.name;
    names.push(name);
